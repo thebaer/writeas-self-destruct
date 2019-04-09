@@ -11,7 +11,7 @@ import (
 )
 
 const (
-	checkInterval = 2 * time.Minute
+	checkInterval = 60 * time.Second
 )
 
 func main() {
